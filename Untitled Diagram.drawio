@@ -1,4 +1,4 @@
-<mxfile modified="2021-02-19T12:57:42.996Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="CKbQGqcU85NUfmVrb7Jk" version="14.4.2" type="github">
+<mxfile modified="2021-02-19T13:37:55.997Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="MLQRerIGdKyWsEB3xQdP" version="14.4.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1694" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -12,6 +12,38 @@
         </mxCell>
         <mxCell id="SCVMTBWpLvtzJIhz15lM-1" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="52.5" y="139.5" width="1060" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-1" value="&lt;u&gt;Frontend&lt;/u&gt;&lt;br&gt;Some kind of close to SPA could be vuejs or angular" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DAP4ipjsbaEbCufKwtE6-2" target="DAP4ipjsbaEbCufKwtE6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-12" value="json" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DAP4ipjsbaEbCufKwtE6-11">
+          <mxGeometry x="0.2267" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-2" value="&lt;u&gt;App logic&lt;/u&gt;&lt;br&gt;The actual logic bindgint the services together" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-3" value="&lt;u&gt;Metadata:&lt;br&gt;&lt;/u&gt;exif&lt;br&gt;comments&lt;br&gt;star ratings&lt;br&gt;annotation&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-4" value="&lt;u&gt;CDN&lt;/u&gt;&lt;br&gt;Service for handling static assets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-5" value="&lt;u&gt;Scale:&lt;/u&gt;&lt;br&gt;Raw in / webp out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-6" value="json" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DAP4ipjsbaEbCufKwtE6-1" target="DAP4ipjsbaEbCufKwtE6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="380" as="sourcePoint" />
+            <mxPoint x="880" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAP4ipjsbaEbCufKwtE6-8" value="glusterFS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="470" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
